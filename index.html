@@ -3,49 +3,34 @@
     <head>
       <title>CODIFY</title>
       <link href="css/styles.css" rel="stylesheet" type="text/css">
-      <script src="js/scripts.js"></script>
+      <script src="js/script.js"></script>
     </head>
     <body>
       <h1>Welcome to Codify</h1>
       <h2>A Programming Language Suggester</h2>
       <p>Let's get started:</p>
 
-      <form id="question1">
+      <form id="questions">
       1. For what system would you like to create apps for?<br>
         <label>
-          <input type="radio" name="question1" value="android" checked>
-          Android
-        </label><br>
-        <label>
-          <input type="radio" name="question1" value="ios">
+          <input type="radio" name="question1" value="1" id="option1" checked />
           iOS
         </label><br>
         <label>
-          <input type="radio" name="question1" value="both">
-          Both
-        </label><br><br>
-
-        2. For what system would you like to create apps for?<br>
-        <label>
-          <input type="radio" name="question2" value="android" checked>
+          <input type="radio" name="question1" value="2" id="option2"/>
           Android
         </label><br>
-        <label>
-          <input type="radio" name="question2" value="ios">
-          iOS
-        </label><br><br>
-
-        3. For what system would you like to create apps for?<br>
-        <label>
-          <input type="radio" name="question3" value="android" checked>
-          Android
-        </label><br>
-        <label>
-          <input type="radio" name="question3" value="ios">
-          iOS
-        </label><br>
+        <input type="radio" name="question1" value="3" id="option3" />
+        Both
+      </label><br>
         <button type="submit">Submit Selection</button>
       </form>
+
+<div id="results">
+    <h3>Your results:</h3>
+    <p><span id="swift">Swift is better for you</span></p>
+    <p><span id="javascript">JS is better for you</span></p>
+    <p><span id="phyton">Phyton is better for you</span></p>
 
 
 <!-- questions about the languages, kinds of environments where they are used or anything you find relevant
