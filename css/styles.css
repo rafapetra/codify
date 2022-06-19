@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: lightpink;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.header2 {
+  display: flex;
+  justify-content: center;
+  background-color: lightseagreen;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+
+
+}
+
+.headerText {
+color: blueviolet;
+font-size: large;
+}
+
+.rowTitle {
+  background-color: lightsalmon;
+  padding-bottom: 3%;
+}
+.rowForm {
+  background-color: lightsalmon;
+  margin-bottom: 4%;
+}
