@@ -2,44 +2,136 @@
   <html lang="en-US">
     <head>
       <title>CODIFY</title>
+      <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
       <link href="css/styles.css" rel="stylesheet" type="text/css">
       <script src="js/script.js"></script>
+      <script src="js/bootstrap.js"></script>
     </head>
-    <body>
-      <h1>Welcome to Codify</h1>
-      <h2>A Programming Language Suggester</h2>
-      <p>Let's get started:</p>
 
-      <form id="questions">
-      1. For what system would you like to create apps for?<br>
-        <label>
-          <input type="radio" name="question1" value="1" id="option1" checked />
-          iOS
-        </label><br>
-        <label>
-          <input type="radio" name="question1" value="2" id="option2"/>
-          Android
-        </label><br>
-        <input type="radio" name="question1" value="3" id="option3" />
-        Both
-      </label><br>
-        <button type="submit">Submit Selection</button>
-      </form>
-
-<div id="results">
-    <h3>Your results:</h3>
-    <p><span id="swift">Swift is better for you</span></p>
-    <p><span id="javascript">JS is better for you</span></p>
-    <p><span id="phyton">Phyton is better for you</span></p>
+    <body class="body">
+      <div class="container">
+        <div class="row">
+          <div class="col header"><p class="headerText">CODIFY</p></div>
+          <div class="header2">A Programming Language Suggester</div>
+        </div>
+      </div>
 
 
-<!-- questions about the languages, kinds of environments where they are used or anything you find relevant
+      <div class="container">
+        <div class="row rowForm"><!--START WHOLE CONTAINER-->
+          <div class="col-md-10"><div class="rowTitle"><p class="title2">Let's get started:</p></div><!---STAR COLUM 1-->
 
-      people that like singing in the rain might prefer ruby
+            <form id="questions">
+            <div class="row rowForm"><!-- START ROW 1.2-->
+              <div class="col-md-7"> <!--COUMN 1.1-->
+                  1. Which operational system would you like to create apps for?<br><br>
+                  <label>
+                  <input type="radio" name="question1" value="1" id="option1" checked />
+                  iOS
+                  </label><br>
+                    
+                  <label>
+                  <input type="radio" name="question1" value="2" id="option2"/>
+                  Android
+                  </label><br>
+                  <input type="radio" name="question1" value="3" id="option3" />
+                  Both
+                  </label><br>
+              </div><!--CLOSE COUMN 1.1-->
+                        
+              <div class="col-md-5"> <!--COUMN 1.2-->
+                2. What level of programming are you?<br><br>
+                <label>
+                <input type="radio" name="question2" value="1" id="option4" checked />
+                Begginer
+                </label><br>
+                <label>
+                <input type="radio" name="question2" value="2" id="option5"/>
+                Intermediate
+                </label><br>
+                <input type="radio" name="question2" value="3" id="option6" />
+                Advanced
+                </label><br>
+              </div><!--  CLOSE COUMN 1.2-->
+            </div><!-- CLOSE ROW 1.2-->
 
-    5 questionsminimum of 3 different suggestions
+            <div class="row rowForm"><!-- START ROW 1.3-->
+              <div class="col-md-7"> <!--COUMN 1.3-->
+                  3. What would be your dream job?<br><br>
+                  <label>
+                  <input type="radio" name="question3" value="1" id="option7" checked />
+                  Programmer
+                  </label><br>
+                  <label>
+                  <input type="radio" name="question3" value="2" id="option8"/>
+                  Farmer
+                  </label><br>
+                  <input type="radio" name="question3" value="3" id="option9" />
+                  Jet Pilot
+                  </label><br>
+              </div><!--CLOSE COUMN 1.3-->
+                        
+              <div class="col-md-5"> <!--COUMN 1.4-->
+                4. Pepsi or Coke?<br><br>
+                <label>
+                <input type="radio" name="question4" value="1" id="option10" checked />
+                Pepsi
+                </label><br>
+                <label>
+                <input type="radio" name="question4" value="2" id="option11"/>
+                Coke
+                </label><br>
+                <input type="radio" name="question4" value="3" id="option12" />
+                Water
+                </label><br>
+              </div><!--  CLOSE COUMN 1.4-->
+            </div><!-- CLOSE ROW 1.3-->
 
-    one branch should return one result - cant suggest two languages at once -->
+            <div class="row rowForm"><!-- START ROW 1.4-->
+              <div class="col-md-7"> <!--COUMN 1.5-->
+                  5. What company would you like to work for?<br><br>
+                  <label>
+                  <input type="radio" name="question5" value="1" id="option13" checked />
+                  Google
+                  </label><br>
+                  <label>
+                  <input type="radio" name="question5" value="2" id="option14"/>
+                  Microsoft
+                  </label><br>
+                  <input type="radio" name="question5" value="3" id="option15" />
+                  Apple
+                  </label><br>
+              </div><!--CLOSE COUMN 1.5-->
+                        
+              <div class="col-sm-5"> <!--COUMN 1.6-->
+                <div class="btn-group">
+                  <button type="submit" class="btn btn-primary checkResults">Check Results</button>
+                </div>
+              </div><!--  CLOSE COUMN 1.6-->
+            </div><!-- CLOSE ROW 1.4-->
+           
+          </div><!-- CLOSE COLUMN 1-->
+      
+          <div class="col-sm-2 rowForm"><!-- START COLUMN 2-->
 
+            <div class="row rowForm4">
+              <p><b>RESULTS</b>
+            </div>
+            <div class="row rowForm3">
+              <div id="results">
+                <p><span id="swift">You should learn Swift<br><br><img class="img" src="img/swift.jpg"></span></p>
+                <p><span id="javascript">You should learn JavaScript<br><br><img class="img" src="img/jslogo.jpg"></span></p>
+                <p><span id="phyton">You should learn Phyton<br><br><img class="img" src="img/phyton.gif"></span></p>
+              </div>
+
+
+            </div>
+
+          </div><!-- CLOSE COLUMN 2-->
+
+          </form>
+
+        </div><!-- CLOSE WHOLE CONTAINER-->
+      </div>
     </body>
   </html>
