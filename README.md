@@ -10,11 +10,10 @@ https://rafapetra.github.io/codify/
 * _HTML_
 * _CSS_
 * _JavaScript_
-* _Web API_
 
 ## Description
 
-_This app asks 5 different questions to the user, gathering their answers and suggesting a programming language for them to learn, based on their preferences.
+This app asks 5 different questions to the user, gathering their answers and suggesting a programming language for them to learn, based on their preferences.
 
 ## Setup/Installation Requirements
 
