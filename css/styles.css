@@ -1,3 +1,6 @@
+.body {
+  background-color: lightblue;
+}
 .header {
   display: flex;
   justify-content: center;
@@ -16,12 +19,11 @@
   align-items: center;
   height: 60px;
 
-
 }
 
 .headerText {
 color: blueviolet;
-font-size: large;
+font-size: 58pt;
 }
 
 .rowTitle {
@@ -31,4 +33,15 @@ font-size: large;
 .rowForm {
   background-color: lightsalmon;
   margin-bottom: 4%;
+}
+.rowForm2 {
+  background-color: lightsalmon;
+  margin-bottom: 4%;
+}
+
+.checkResults {
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+
 }
