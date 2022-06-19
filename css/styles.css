@@ -18,6 +18,7 @@
   justify-content: center;
   align-items: center;
   height: 60px;
+  color: lemonchiffon;
 
 }
 
@@ -39,9 +40,32 @@ font-size: 58pt;
   margin-bottom: 4%;
 }
 
+.rowForm3 {
+  background-color: lightpink;
+  margin-bottom: 4%;
+  justify-content: center;
+  align-items: center;
+
+}
+.rowForm4 {
+  background-color: lightcoral;
+  margin-bottom: 4%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
 .checkResults {
   align-items: center;
   justify-content: center;
   align-self: center;
 
 }
+
+.title2 {
+  font-weight: bold;
+  }
+
+  .img {
+    max-width: 100%;
+  }
